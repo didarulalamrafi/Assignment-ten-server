@@ -281,7 +281,6 @@ app.get("/api/rejectowner", async (req, res) => {
   res.send(result);
 });
 
-// ==================== START ====================
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
